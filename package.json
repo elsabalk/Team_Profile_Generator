@@ -1,0 +1,30 @@
+{
+  "name": "team_profile_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npm test",
+    "nodemon": "./node_modules/.bin/nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsabalk/Team_Profile_Generator.git"
+  },
+  "author": "Elsa Balkaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsabalk/Team_Profile_Generator/issues"
+  },
+  "homepage": "https://github.com/elsabalk/Team_Profile_Generator#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}
