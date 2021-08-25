@@ -70,7 +70,7 @@ function engineerQuestions() {
 
     // Call Engineer class/ constructor which entends Employee and pushes to teamMember array and create team member. Update html with user input
 ]).then(answer => {
-        const engineerDetails = new Engineer(answer.engineerName, answer.engineerId, answer.engineerEmail, answer.engGithubName);
+        const engineerDetails = new Engineer(answer.engineerId, answer.engineerName, answer.engineerEmail, answer.engGithubName);
         console.log(engineerDetails);
         teamMembers.push(engineerDetails);
         createTeamMember();
@@ -177,7 +177,7 @@ function updateHtml(teamMember) {
             const gitHub = teamMember.getGithubUsername();
             data = `<div class="col-6">
             <div class="card mx-auto mb-3" style="width: 18rem">
-            <h5 class="card-header">${name}<br /><br />Engineer</h5>
+            <h5 class="card-title text-center">${name}<br /><br />Engineer</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
                 <li class="list-group-item" >Email: <a href="mailto:">${email}</a></li>
