@@ -5,7 +5,7 @@
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "tests"
+    "test": "jest"
   },
   "scripts": {
     "test": "npm test",
@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/elsabalk/Team_Profile_Generator#readme",
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "jest": "^24.9.0"
   },
   "dependencies": {
     "inquirer": "^8.1.2"
