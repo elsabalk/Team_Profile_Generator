@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
-This contains a team profile generator using html, css, javascript and node.js that generates a team profile using user input.
+This contains a team profile generator using html, javascript and node.js that generates a team profile using user input.
 
 ## Table of Contents
 1. [Installation](#installation)
