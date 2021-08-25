@@ -8,7 +8,8 @@
     "test": "jest"
   },
   "scripts": {
-    "test": "npm test",
+    "test": "jest",
+    "start": "node index.js",
     "nodemon": "./node_modules/.bin/nodemon"
   },
   "repository": {

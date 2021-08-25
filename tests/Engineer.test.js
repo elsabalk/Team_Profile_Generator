@@ -1,4 +1,4 @@
-const Engineer = require("./src/Engineer");
+const Engineer = require("C:/Users/elsab/desktop/TeamProfileGenerator/Team_Profile_Generator/src/Engineer.js");
 
 test("Validate able to get GitHub username value by getGithubUsername()", () => {
     const username = "elsabalk";

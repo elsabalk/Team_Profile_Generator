@@ -1,4 +1,4 @@
-const Manager = require("./src/Manager");
+const Manager = require("C:/Users/elsab/desktop/TeamProfileGenerator/Team_Profile_Generator/src/Manager.js");
 
 test("Validate able to get office number value by getByOfficeNumber()", () => {
     const officeNumber = "800-324-5392";
